@@ -1,0 +1,7 @@
+import os.path
+group = [Glob('armv6/*.S')]
+path = [
+    os.path.abspath('./include')
+]
+group += path
+Return('group')
